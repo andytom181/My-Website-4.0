@@ -1,0 +1,76 @@
+.gradient-background {
+    background: linear-gradient(300deg, #ADC4CE, #EEE0C9, #F1F0E8);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .profile-picture {
+    width: 400px !important;
+  }
+  .site-content-img{
+    background-color: #EEE0C9;
+  }
+  .card {
+    background-color: #EEE0C9;
+    margin: 10px;
+    width: 20rem;
+    height: 14rem;
+    text-align: center;
+    justify-content: space-between;
+
+}
+body{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.details-btn {
+    background-color: #ADC4CE;
+    border-color: #B3C8CF;
+    color: black;
+    position: absolute;
+    bottom: 5px;
+    left: 116px;
+}
+.background{
+  background-color: #EEE0C9;
+}
+.card12{
+  position: relative;
+  height: 100%;
+}
+.navbar {
+  background-color: #96B6C5 !important;
+}
+.card-education{
+  background-color: #F1F0E8;
+  text-align: center;
+  justify-content: center;  
+}
+.feature-icon-small {
+  background-color: #ADC4CE !important;
+}
+.footer {
+  display: flex;
+  justify-content: right;
+  align-items: end;
+  background-color: #EEE0C9;
+  height: 10rem;
+  padding: 10px;
+}
+@media (max-width: 500px) {
+.profile-picture {
+  width: 280px !important;
+}
+}
